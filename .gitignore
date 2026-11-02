@@ -1,0 +1,31 @@
+# 环境与密钥
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+frontend/build.log
+
+# 运行期生成的数据（任务/脚本/结果/浏览器会话）
+storage/tasks/*.json
+storage/scripts/*.py
+storage/results/*
+storage/.browser_profiles/
+storage/.tmp/
+!storage/tasks/.gitkeep
+!storage/scripts/.gitkeep
+!storage/results/.gitkeep
+
+# pnpm
+.pnpm-store/
+
+# pip 本地缓存（安装加速用）
+.pip-cache/
+.tmp/
